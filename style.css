@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+  }
+  
+  .container {
+    padding: 2em;
+    font-family: VT323, sans-serif;
+    text-align: center;
+  }
+  
+  .usage {
+    color: #fff;
+    font-size: 20px;
+  }
+  a.key {
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    display: inline-block;
+    margin: 3px 2px;
+    background: #e3e3e3;
+    border-radius: 4px;
+    color: #000;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #fff;
+  }
+  
+  .header {
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff, 0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    color: #fccaff;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 25px #ffa500, 0 0 20px #ffa500, 0 0 30px #ff0000, 0 0 80px #ff8d00, 0 0 80px #ff0000;
+    color: #fff6a9;
+    text-align: center;
+    font-size: 80px;
+  }
