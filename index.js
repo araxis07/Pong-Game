@@ -188,7 +188,7 @@ function Game(canvasId) {
       context.textAlign = "center";
   
       if (this.stage === "SELECT_COMPUTER") {
-        context.fillText("COMPUTER LEVER", width / 2, height / 4);
+        context.fillText("COMPUTER LEVEL", width / 2, height / 4);
         context.fillText("1. easy", width / 2, height / 4 + 80);
         context.fillText("2. medium", width / 2, height / 4 + 160);
         context.fillText("3. hard", width / 2, height / 4 + 240);
