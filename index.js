@@ -192,6 +192,7 @@ function Game(canvasId) {
         context.fillText("1. easy", width / 2, height / 4 + 80);
         context.fillText("2. medium", width / 2, height / 4 + 160);
         context.fillText("3. hard", width / 2, height / 4 + 240);
+
       } else if (this.stage == "GAME_OVER") {
         context.fillStyle = "rgba(255,255,255,0.5)";
         context.textAlign = "center";
